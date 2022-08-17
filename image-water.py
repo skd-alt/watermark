@@ -4,7 +4,7 @@ from PIL import Image, ImageTk
 from tkinter.filedialog import askopenfilename
 
 window = Tk()
-window.title("Password Manager")
+window.title("Watermark Manager")
 window.config(padx=50, pady=50)
 
 canvas = Canvas(width=500, height=500)
